@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+
+# Local Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Local logs & caches
+*.log
+.DS_Store
+Thumbs.db
+
+# Test scripts
+test-server.js
+test-all-features.js
